@@ -3,7 +3,11 @@
 ### Angular 19, Playwright and TailwindCSS
 
 ```bash
+ng g environments
 ng build --configuration=development
+
+# create typescript interface
+ng g interface letters
 ```
 
 ### Disable sass warnings
